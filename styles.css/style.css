@@ -15,6 +15,27 @@ body {
     background: linear-gradient(white,black);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header {
     position:relative;
     display:flex;
@@ -61,32 +82,32 @@ header img {
     color: white;
 }
 
-.header-container-title .header-button{
-    position: absolute;
-    display: block;
-    margin-top: 50px;
-    padding: 2px;
-    width: 103px;
-    height: 70px;
-    background-color: rgb(150, 150, 156);
-    /*sombra*/
-    box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
-    border: none;
-    border-radius: 10px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: blue;
-}
 
-.header-button span{
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    margin-left: 10px;
-    background-image: url("../img/ICONOS/ICONO\ enter.png")
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 main{
     width: 100%;
@@ -137,6 +158,22 @@ main{
 
 
 
+
+
+/*  bienvenida   */
+
+.container-bienvenida{
+    padding-top: 80px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 100px 0;
+    background-color: rgb(98, 141, 197);
+    font-size: 1.8rem;
+    
+
+
+}
 
 
 
