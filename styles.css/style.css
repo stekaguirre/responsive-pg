@@ -19,59 +19,33 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header {
-    position:relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    text-align: center;
-    align-items: center;
-    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    min-width: 300px;
+    display:grid;
     border-style: solid;
     border-radius: 10px;
+    background-color: black;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    margin-top: 60px;
-    align-self: center;
+    width: 100px;
+    height: 100px;
 }
 
 .header-container-title{
-    width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    height: 300px;
-    margin-top: 30px;
+    width: 300px;
+    min-width: 300px;
+    height: 200px;
     text-align: center;
-    align-self: center;
 }
 
 .header-container-title h1{
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: red;
+    color: white;
 }
 
 .header-container-title p{
@@ -88,59 +62,42 @@ header img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main{
-    width: 100%;
+    width: 300px;
+    min-width: 300px;
     height: auto;
-    margin: 100px 0;
 }
-
-
 
 
 
 /*  TARGETA BIENVENIDA*/
 
-
-
 .targeta-servicios{
+    width: 300px;
+    min-width: 300px;
+    height: 500px;
     display: grid;
-    flex-direction: column;
-    align-self: center;
-    background-color: yellow;
+    margin-top: 50px;
+    background-color: black;
     border-style: solid;
     border-radius: 10px;
+    color: white;
 }
+
 .targeta-servicios .targeta-title{
-    color: blueviolet;
+    width: 100%;
+    min-width: 300px;
+    height: 100px;
+    color:white;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .targeta-container{
+    width: 100%;
+    min-width: 300px;
+    height: 400px;
     display: grid;
-    grid-auto-rows: 1fr;
     gap: 15px;
     justify-content: center;
 
@@ -156,93 +113,124 @@ main{
 
 
 
-
-
-
 /*  bienvenida   */
 
 .container-bienvenida{
-    padding-top: 80px;
-    text-align: center;
+    width: 100%;
+    min-width: 300px;
+    height: 400px;
     border-style: solid;
     border-radius: 10px;
-    margin: 100px 0;
-    background-color: rgb(98, 141, 197);
+    background-color: black;
+    color: white;
+    margin-top: 50px;
     
 }
 
 
 
-
-
 /*NETFLIX*/
 
-
-
-
 .container-netflix{
-    padding-top: 80px;
-    text-align: center;
+    width: 300px;
+    min-width: 300px;
+    height: 1200px;
+    display: grid;
+    margin-top: 50px;
     border-style: solid;
     border-radius: 10px;
-    margin: 100px 0;
     background-color: black;
-    color: white;
 }
 
-.container-netflix .netflix-title{
-    width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    margin: 0 auto;
-    color: red;
-}
 
-.container-netflix .netflix-img{
-    width: 260px;
-    height: 200px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+.netflix-img{
+    width: 100%;
+    min-width: 200px;
+    height: 250px;
     background-image: url(../img/netflix.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 90%;
-    min-width: 230px;
-    max-width: 300px;
-    height: 250px;
-    margin: 0 auto;
+    object-fit: cover;
 }
 
+.detalle-producto-netflix{
+    width: 280px;
+    min-width: 200px;
+    height: 300px;
+    display: grid;
+    justify-self: center;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: red;
+}
 
-.container-netflix h3{
-    margin-bottom: 30px;
+.netflix-detalle-title{
+    width: 100%;
+    min-width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.netflix-detalle-p{
+    width: 100%;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.table-netflix{
+    min-width: 200px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+}
+
+thead{
+    background: white;
+    color: rgb(231, 13, 13);
+    font-weight: bold;
+}
+
+tbody{
+    background: rgb(110, 110, 117);
+    color: rgb(231, 13, 13);
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+.netflix-latuya{
+    text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    line-height: 2.6rem;
+    line-height: 1.8rem;
     color: red;
 }
 
-.container-netflix p{
-    margin-bottom: 30px;
-    font-size: 1.4rem;
-    font-weight: 500;
+.netflix-wasap{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 1.6rem;
     line-height: 1.6rem;
-    color: red;
+    justify-self: center;
+    text-align: center;
+
+}
+.netflix-wasap span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url("../img/ICONOS/wasap.svg");
 }
 
-
-
-.netflix-table-info{
-    margin-left: 20%;
-    margin-bottom: 20px;
-    color: white;
-}
-.netflix-table-info table tbody{
-    margin-left: 20%;
-    margin-bottom: 20px;
-    color: white;
-}
 
 .container-netflix .fecha-actualizacion{
     width: 190px;
@@ -252,25 +240,31 @@ main{
     padding: 8px;
     background-color: white;
     border-radius: 8px;
+    font-weight: bold;
 }
+
 .container-netflix .fecha-actualizacion p{
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: red;
+    font-weight: bold;
 }
 
 
 
-
-/*       DISNEY       */
+/*DISNEY*/
 
 .container-disney{
+    display: grid;
+    width: 300px;
     padding-top: 80px;
     text-align: center;
+    justify-self: center;
     border-style: solid;
     border-radius: 10px;
     margin: 100px 0;
-    background-color: blueviolet;
+    background-color: black;
+    color: rgb(24, 44, 228);
 }
 
 .container-disney .disney-title{
@@ -278,7 +272,7 @@ main{
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
-    color: rgb(15, 28, 211);
+    color: rgb(16, 37, 224);
 }
 
 .container-disney .disney-img{
@@ -290,14 +284,20 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
 }
+
 
 .container-disney h3{
     margin-bottom: 30px;
     font-size: 2rem;
     font-weight: bold;
     line-height: 2.6rem;
-    color: rgb(19, 52, 199);
+    color: rgb(17, 30, 212);
 }
 
 .container-disney p{
@@ -305,16 +305,38 @@ main{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: rgb(75, 102, 192);
+    color: rgb(10, 14, 223);
 }
+
+
+
 .disney-table-info{
+    margin-bottom: 20px;
+    color: white;
+    text-align: -webkit-center;
+}
+.disney-table-info table tbody{
     margin-left: 20%;
     margin-bottom: 20px;
+    color: white;
 }
 
-
-
-
+.container-disney .fecha-actualizacion{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.container-disney .fecha-actualizacion p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(18, 43, 185);
+    font-weight: bold;
+}
 
 
 
