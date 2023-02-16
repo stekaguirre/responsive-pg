@@ -24,8 +24,6 @@ header {
     width: 400px;
     min-width: 300px;
     display:grid;
-    border-style: solid;
-    border-radius: 10px;
     background-color: black;
 }
 
@@ -77,8 +75,6 @@ main{
     height: 500px;
     display: grid;
     background-color: black;
-    border-style: solid;
-    border-radius: 10px;
     color: white;
 }
 
@@ -108,8 +104,6 @@ main{
     width: 100%;
     min-width: 300px;
     height: 400px;
-    border-style: solid;
-    border-radius: 10px;
     background-color: black;
     color: white; 
 }
@@ -123,8 +117,6 @@ main{
     min-width: 300px;
     height: 1200px;
     display: grid;
-    border-style: solid;
-    border-radius: 10px;
     background-color: black;
 }
 
@@ -146,8 +138,6 @@ main{
     height: 300px;
     display: grid;
     justify-self: center;
-    border-style: solid;
-    border-radius: 10px;
     background-color: red;
 }
 
