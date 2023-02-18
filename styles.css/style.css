@@ -20,10 +20,9 @@ body {
 
 
 header {
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 350px;
-    min-width: 350px;
+    min-width: 300px;
     min-height: 350px;
     display:grid;
     background-color: black;
@@ -35,10 +34,10 @@ header img {
 }
 
 .header-container-title{
-    width: 350px;
+    width: 100%;
     height: auto;
     min-width: 300px;
-    min-height: 300px;
+    min-height: 280px;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -68,7 +67,6 @@ header img {
 main{
     width: auto;
     height: auto;
-    min-width: 350px;
 }
 
 
@@ -76,9 +74,9 @@ main{
 /*  TARGETA DE SERVICIOS*/
 
 .targeta-servicios{
-    width: 350px;
+    width: 100%;
     height: auto;
-    min-width: 350px;
+    min-width: 300px;
     min-height: 700px;
     display: grid;
     background-color: black;
@@ -103,9 +101,9 @@ main{
 /*TEXTO `PRINCIPAL*/
 
 .texto-principal{
-    width: 350px;
+    width: 100%;
     height: auto;
-    min-width: 350px;
+    min-width: 300px;
     min-height: 400px;
     display: grid;
     background-color: black;
@@ -113,7 +111,7 @@ main{
 }
 
 .titulo-texto{
-    width: 100%;
+    width: 80%;
     min-width: 200px;
     height: 50px;
     text-align: center;
@@ -149,9 +147,9 @@ main{
 /*NETFLIX*/
 
 .container-netflix{
-    width: 350px;
+    width: 100%;
     height: auto;
-    min-width: 350px;
+    min-width: 300px;
     min-height: 1000px;
     display: grid;
     background-color: black;
@@ -174,11 +172,10 @@ main{
     width: 80%;
     height: auto;
     min-width: 300px;
-    min-height: 400px;
+    min-height: 300px;
     display: grid;
     background-color: red;
     justify-items: center;
-    padding: 10px;
 }
 
 .netflix-detalle-title{
@@ -192,7 +189,6 @@ main{
 .netflix-detalle-p{
     width: 80%;
     height: auto;
-    min-height: 300px;
     font-size: 1rem;
     font-weight: bold;
     padding: 20px;
@@ -230,6 +226,8 @@ td,th{
     font-weight: bold;
     line-height: 1.8rem;
     color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .botonWasap{
@@ -245,14 +243,15 @@ td,th{
 }
 
 .container-netflix .fecha-actualizacion{
-    width: 190px;
-    height: 30px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
     background-color: white;
     border-radius: 8px;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .container-netflix .fecha-actualizacion p{
