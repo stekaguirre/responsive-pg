@@ -20,22 +20,28 @@ body {
 
 
 header {
-    height: 300px;
-    width: 400px;
-    min-width: 300px;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    min-width: 350px;
+    min-height: 350px;
     display:grid;
     background-color: black;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .header-container-title{
+    width: 350px;
+    height: auto;
     min-width: 300px;
-    height: 100px;
-    text-align: center;
+    min-height: 300px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
 .header-container-title h1{
@@ -60,19 +66,20 @@ header img {
 
 
 main{
-    width: 400px;
-    min-width: 300px;
+    width: auto;
     height: auto;
+    min-width: 350px;
 }
 
 
 
-/*  TARGETA BIENVENIDA*/
+/*  TARGETA DE SERVICIOS*/
 
 .targeta-servicios{
-    width: 100%;
-    min-width: 300px;
-    height: 500px;
+    width: 350px;
+    height: auto;
+    min-width: 350px;
+    min-height: 700px;
     display: grid;
     background-color: black;
     color: white;
@@ -80,12 +87,9 @@ main{
 
 .targeta-container{
     width: 100%;
-    min-width: 300px;
-    height: 400px;
+    height: 600px;
     display: grid;
     gap: 15px;
-    justify-content: center;
-
 }
 .item-targeta{
     width: 100%;
@@ -94,6 +98,37 @@ main{
 }
 .item-targeta-big{
     grid-area: 1 / 1 / 3 / 3;
+}
+
+/*TEXTO `PRINCIPAL*/
+
+.texto-principal{
+    width: 350px;
+    height: auto;
+    min-width: 350px;
+    min-height: 400px;
+    display: grid;
+    background-color: black;
+    justify-items: center;
+}
+
+.titulo-texto{
+    width: 100%;
+    min-width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo-texto{
+    width: 80%;
+    height: 400px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+
 }
 
 
@@ -106,6 +141,7 @@ main{
     height: 400px;
     background-color: black;
     color: white; 
+    padding: 0px 20px 0px 20px;
 }
 
 
@@ -113,46 +149,53 @@ main{
 /*NETFLIX*/
 
 .container-netflix{
-    width: 100%;
-    min-width: 300px;
-    height: 1200px;
+    width: 350px;
+    height: auto;
+    min-width: 350px;
+    min-height: 1000px;
     display: grid;
     background-color: black;
+    justify-items: center;
 }
 
 
 .netflix-img{
-    width: 100%;
+    width: 80%;
     min-width: 200px;
-    height: 250px;
+    height: 200px;
+    min-height: 200px;
     background-image: url(../img/netflix.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
+    padding: 20px;
 }
 
 .detalle-producto-netflix{
-    width: 280px;
-    min-width: 200px;
-    height: 300px;
+    width: 80%;
+    height: auto;
+    min-width: 300px;
+    min-height: 400px;
     display: grid;
-    justify-self: center;
     background-color: red;
+    justify-items: center;
+    padding: 10px;
 }
 
 .netflix-detalle-title{
-    width: 100%;
-    min-width: 200px;
-    height: 50px;
+    width: 80%;
+    height: auto;
+    min-width: 250px;
+    min-height: 50px;
     text-align: center;
 }
 
 .netflix-detalle-p{
-    width: 100%;
-    height: 250px;
+    width: 80%;
+    height: auto;
+    min-height: 300px;
     font-size: 1rem;
     font-weight: bold;
+    padding: 20px;
 
 }
 
@@ -161,6 +204,7 @@ main{
     display: grid;
     align-self: center;
     justify-content: center;
+    margin-top: 40px;
 }
 
 thead{
@@ -188,25 +232,17 @@ td,th{
     color: red;
 }
 
-.netflix-wasap{
-    width: 100px;
-    height: 40px;
-    background-color: green;
-    border-radius: 10px;
+.botonWasap{
+    background-color: rgb(12, 219, 40);
+    padding: 20px 20px;
+    border-color:black;
+    border-width: 2px;
     border-style: solid;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    justify-self: center;
-    text-align: center;
-
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
-.netflix-wasap span{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-image: url("../img/ICONOS/wasap.svg");
-}
-
 
 .container-netflix .fecha-actualizacion{
     width: 190px;
