@@ -1,0 +1,117 @@
+/*DISNEY*/
+
+.disney-container-netflix{
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    min-height: 1000px;
+    display: grid;
+    background-color: black;
+    justify-items: center;
+}
+
+
+.disney-netflix-img{
+    width: 80%;
+    min-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    background-image: url(../img/disney.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.disney-detalle-producto-netflix{
+    width: 80%;
+    height: auto;
+    min-width: 300px;
+    min-height: 300px;
+    display: grid;
+    background-color:blue;
+    justify-items: center;
+}
+
+.disney-netflix-detalle-title{
+    width: 80%;
+    height: auto;
+    min-width: 250px;
+    min-height: 50px;
+    text-align: center;
+}
+
+.disney-netflix-detalle-p{
+    width: 80%;
+    height: auto;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.disney-table-netflix{
+    min-width: 200px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.disney-table-netflix thead {
+    background:blue;
+    color: white;
+    font-weight: bold;
+}
+
+.disney-table-netflix tbody{
+    background: white;
+    color:blue;
+    font-weight: bold;
+}
+
+.disney-table-netflix td,th{
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+.disney-netflix-latuya{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.disney-botonwasapplan{
+    width: 160px;
+    height: 20px;
+    min-width: 150px;
+    min-height: 20px;
+    background-color: rgb(12, 219, 40);
+    padding: 20px 20px;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.disney-botonactualizar{
+    width: 250px;
+    height: 20px;
+    min-width: 240px;
+    min-height: 20px;
+    padding: 20px 20px;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
